@@ -8,7 +8,7 @@ export default function App() {
    
   <div className="Weather">
  Weather App
-   <Weather />
+   <Weather defaultCity="New York" />
     <footer>
       This project was coded by Milan Artis and is
     <a href= " https://github.com/milanartis21/practice-weather-app"
