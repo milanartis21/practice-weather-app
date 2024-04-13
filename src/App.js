@@ -6,8 +6,8 @@ import './App.css';
 export default function App() {
   return (
    
-  <div className="Weather">
- Weather App
+  <div className="App">
+ <div className= "container">
    <Weather defaultCity="New York" />
     <footer>
       This project was coded by Milan Artis and is
@@ -15,7 +15,7 @@ export default function App() {
     target="_blank"> open-sourced on GitHub</a>
  </footer>
  </div>
+</div>
   ); 
+
 };
-
-
